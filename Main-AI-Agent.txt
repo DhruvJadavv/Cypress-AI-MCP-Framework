@@ -13,7 +13,8 @@ What would you like to do?
    → This will execute the generated Cypress test scripts in headless mode. execute npx cypress run command for particular testcase.check result.
 4. Update Test Results  
    → This will update the saucedemo_test_cases.csv file by changing the status of each test case to Pass or Fail based on execution results.Update to particular test case only.
-
+5. Generate API Automation Script
+   → This will run the prompt-repo/APIAgent.txt prompt using the user provided Curl.
 ---
 
 Once the user selects an action (1, 2, 3, or 4), immediately perform that step.  
