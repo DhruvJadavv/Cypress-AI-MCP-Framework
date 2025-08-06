@@ -1,0 +1,5 @@
+Test Case ID,Test Case Title,Preconditions,Test Steps,Expected Result,Priority,Type,Status
+TC_01,Login with valid credentials,User is registered,"1. Navigate to https://www.saucedemo.com\n2. Enter valid username and password\n3. Click Login",User is redirected to inventory page,High,Positive,
+TC_02,Login with invalid credentials,User is registered,"1. Navigate to https://www.saucedemo.com\n2. Enter invalid username or password\n3. Click Login",Error message is displayed,High,Negative,
+TC_03,Login page loads successfully,None,"1. Navigate to https://www.saucedemo.com",Login page is displayed,Medium,Positive,
+TC_04,Password field is required,None,"1. Navigate to https://www.saucedemo.com\n2. Enter valid username\n3. Leave password blank\n4. Click Login",Error message for missing password,Medium,Negative,

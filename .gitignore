@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test output
+*.log
+
+# Temp
+*.tmp
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Misc
+.idea/
+*.swp
+
+# Ignore generated test specs
+/temp_codegen/
